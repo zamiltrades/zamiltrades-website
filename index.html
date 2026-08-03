@@ -57,15 +57,22 @@
         }
 
         .btn {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 15px 35px;
-            background: #00aaff;
-            color: white;
-            text-decoration: none;
-            border-radius: 30px;
-            font-weight: bold;
-        }
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 35px;
+    background: #00aaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0,170,255,0.4);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+}
 .results {
     text-align: center;
     padding: 70px 20px;
